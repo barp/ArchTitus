@@ -80,5 +80,21 @@ cp MyProfile.profile ${HOME}/.local/share/konsole
 
 popd
 
+# Install dolphin context menu
+pushd ${HOME}/ArchTitus/dolphin-context-menu
+
+download_folder=$HOME/.local/share/servicemenu-download/
+install_folder=$HOME/.local/share/kservices5/ServiceMenus/
+
+mkdir -p "$download_folder"
+mkdir -p "$install_folder"
+
+for item in *.desktop; do
+	cp "$item" "$download_folder"
+	cp "$item" "$install_folder"
+done
+
+popd
+
 echo -e "\nDone!\n"
 exit
