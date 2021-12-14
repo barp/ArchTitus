@@ -69,5 +69,16 @@ konsave -i $HOME/ArchTitus/kde.knsv
 sleep 1
 konsave -a kde
 
+# Install konsole profile
+pushd ${HOME}/ArchTitus/konsole-configs
+
+mkdir -p ${HOME}/.config/
+cp konsolerc ${HOME}/.config/
+
+mkdir -p ${HOME}/.local/share/konsole
+cp MyProfile.profile ${HOME}/.local/share/konsole
+
+popd
+
 echo -e "\nDone!\n"
 exit
