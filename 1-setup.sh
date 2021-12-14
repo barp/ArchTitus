@@ -103,7 +103,7 @@ PKGS=(
 'fuseiso'
 'gamemode'
 'gcc'
-'gimp' # Photo editing
+# 'gimp' # Photo editing
 'git'
 'gparted' # partition management
 'gptfdisk'
@@ -186,13 +186,13 @@ PKGS=(
 'unzip'
 'usbutils'
 'vim'
-'virt-manager'
-'virt-viewer'
+# 'virt-manager'
+# 'virt-viewer'
 'wget'
 'which'
-'wine-gecko'
-'wine-mono'
-'winetricks'
+# 'wine-gecko'
+# 'wine-mono'
+# 'winetricks'
 'xdg-desktop-portal-kde'
 'xdg-user-dirs'
 'zeroconf-ioslave'
