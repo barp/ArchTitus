@@ -19,7 +19,7 @@ makepkg -si --noconfirm
 cd ~
 
 echo "Setting zsh"
-echo Y | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" < /dev/null
+echo Y | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone "https://github.com/barp/zsh-config.git"
 rm "$HOME/.zshrc"
 ln -s "$HOME/zsh-config/.zshrc" $HOME/.zshrc
