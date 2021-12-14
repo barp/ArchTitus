@@ -174,7 +174,7 @@ PKGS=(
 'sddm-kcm'
 'snapper'
 'spectacle'
-'steam'
+# 'steam'
 'sudo'
 'swtpm'
 'synergy'
@@ -198,8 +198,6 @@ PKGS=(
 'zeroconf-ioslave'
 'zip'
 'zsh'
-'zsh-syntax-highlighting'
-'zsh-autosuggestions'
 )
 
 for PKG in "${PKGS[@]}"; do
