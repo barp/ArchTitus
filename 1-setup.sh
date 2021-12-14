@@ -136,7 +136,7 @@ PKGS=(
 'linux-firmware'
 'linux-headers'
 'lsof'
-'lutris'
+# 'lutris'
 'lzop'
 'm4'
 'make'
