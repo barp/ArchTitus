@@ -66,7 +66,7 @@ PKGS=(
 'alsa-plugins' # audio plugins
 'alsa-utils' # audio utils
 'ark' # compression
-'audiocd-kio' 
+'audiocd-kio'
 'autoconf' # build
 'automake' # build
 'base'
@@ -101,7 +101,7 @@ PKGS=(
 'fuse2'
 'fuse3'
 'fuseiso'
-'gamemode'
+# 'gamemode'
 'gcc'
 # 'gimp' # Photo editing
 'git'
@@ -168,7 +168,7 @@ PKGS=(
 'python-psutil'
 'python-pyqt5'
 'python-pip'
-'qemu'
+#'qemu'
 'rsync'
 'sddm'
 'sddm-kcm'
@@ -177,7 +177,7 @@ PKGS=(
 # 'steam'
 'sudo'
 'swtpm'
-'synergy'
+# 'synergy' - share keyboard multiple computers
 'systemsettings'
 'terminus-font'
 'traceroute'

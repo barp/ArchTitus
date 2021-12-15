@@ -34,7 +34,7 @@ PKGS=(
 'autojump'
 'awesome-terminal-fonts'
 'google-chrome'
-'dxvk-bin' # DXVK DirectX to Vulcan
+# 'dxvk-bin' # DXVK DirectX to Vulcan
 'github-desktop-bin' # Github Desktop sync
 'lightly-git'
 'lightlyshaders-git'
