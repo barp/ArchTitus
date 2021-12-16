@@ -84,7 +84,7 @@ PKGS=(
 'breeze-gtk'
 'bridge-utils'
 'btrfs-progs'
-'mpv' # video players
+'celluloid' # video players
 'cmatrix'
 'code' # Visual Studio code
 'cronie'
