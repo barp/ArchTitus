@@ -55,6 +55,11 @@ PKGS=(
 'ttf-hack'
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
+# Japanese/Chinese fonts
+'adobe-source-han-sans-jp-fonts'
+'adobe-source-han-serif-jp-fonts'
+'adobe-source-han-sans-cn-fonts'
+'adobe-source-han-serif-cn-fonts'
 'snap-pac'
 )
 
