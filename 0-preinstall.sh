@@ -134,7 +134,7 @@ if [[  $TOTALMEM -lt 8000000 ]]; then
 fi
 
 # creating common subvolumes
-rmdir /home
+rmdir /mnt/home
 btrfs subvolume create /mnt/home
 
 echo "--------------------------------------"
