@@ -91,6 +91,7 @@ PKGS=(
 'cups'
 'dialog'
 'discover'
+'packagekit-qt5'
 'dolphin'
 'dosfstools'
 'dtc'
