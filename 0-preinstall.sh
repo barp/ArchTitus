@@ -132,6 +132,11 @@ if [[  $TOTALMEM -lt 8000000 ]]; then
     #The line below is written to /mnt/ but doesn't contain /mnt/, since it's just / for the sysytem itself.
     echo "/opt/swap/swapfolder/swapfile	none	swap	sw	0	0" >> /mnt/etc/fstab #Add swap to fstab, so it KEEPS working after installation.
 fi
+
+# creating common subvolumes
+rmdir /home
+btrfs subvolume create /mnt/home
+
 echo "--------------------------------------"
 echo "--   SYSTEM READY FOR 1-setup       --"
 echo "--------------------------------------"
